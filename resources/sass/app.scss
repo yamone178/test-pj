@@ -4,47 +4,5 @@
 // Variables
 @import 'variables';
 
-$list-group-border-color: none;
-$accordion-button-focus-border-color: none;
-$accordion-button-focus-box-shadow: none;
-$accordion-border-color: none;
-$accordion-bg: white;
-$accordion-padding-y: 0.8rem;
-$accordion-padding-x: 1rem;
-$accordion-button-active-bg: none;
-$accordion-icon-width: 0.8rem;
-
-    // Bootstrap
+// Bootstrap
 @import 'bootstrap/scss/bootstrap';
-
-
-:root{
-    --sidebar-hover-active-color: #212529;
-    --sidebar-hover-active-bg: #e9ecef;
-}
-
-.half-bg{
-    width: 100%;
-    height: 264px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #28304e;
-}
-
-.avatar-img{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-
-}
-
-.sidebar .list-group-item:hover{
-    color:var(--sidebar-hover-active-color) !important;
-    background:var(--sidebar-hover-active-bg) !important;
-}
-
-.sidebar-nav{
-    min-width: 250px;
-    max-width: 250px;
-}

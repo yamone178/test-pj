@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('fax',\App\Http\Controllers\FaxController::class);
+Route::get('inbox',[\App\Http\Controllers\FaxController::class,'noti'])->name('noti');
+Route::resource('user',\App\Http\Controllers\UserController::class);

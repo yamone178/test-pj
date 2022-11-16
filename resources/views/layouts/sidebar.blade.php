@@ -6,17 +6,21 @@
 
     <div class="">
         <div class="list-group fs-base">
-            <a href="" class="list-group-item">
+            <a href="{{route('fax.create')}}" class="list-group-item">
                 <i class=" me-2 bi bi-house"></i>
                 <span>Dashboard</span>
             </a>
-            <a href="" class="list-group-item">
+            <a href="{{route('noti')}}" class="list-group-item">
                 <i class=" me-2 bi bi-journal-bookmark-fill"></i>
-                <span>Orders</span>
+                <span>noti</span>
             </a>
-            <a href="" class="list-group-item">
+            <a href="{{route('user.index')}}" class="list-group-item">
                 <i class=" me-2 bi bi-journal-arrow-up"></i>
-                <span>Reservation</span>
+                <span>users</span>
+            </a>
+            <a href="{{route('user.create')}}" class="list-group-item">
+                <i class=" me-2 bi bi-journal-arrow-up"></i>
+                <span>create users</span>
             </a>
 
             <div class="accordion" id="accordionPanelsStayOpenExample">
